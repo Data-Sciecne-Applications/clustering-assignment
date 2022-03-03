@@ -10,7 +10,7 @@ We used Bag-of-Word, TF-IDF, LDA and Doc2Vec to perform feature engineering, and
 
 The code can be run in Colab or local Jupyter Notebook.
 
-The data modelling and result outputs are in main.ipynb. 
+The data modelling and result outputs are in main.ipynb. The main.ipynb consists of feature engineering, data modelling, score displays for Kappa, Silhouette and Rand Index. Sicne we only have LDA model that can produce topics, we only provide the best coherence score for the LDA model. Further details of the coherence pattern can be found in LDA/LDA_ipynb.ipynb.
 
 Error analysis can be found at the end of main.ipynb and LDA/lda_erroranalysis.ipynb
 
